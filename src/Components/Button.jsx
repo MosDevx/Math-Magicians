@@ -16,12 +16,12 @@ class Button extends React.Component{
 
 	render(
 		//destructer props
-	  {value,type} = this.props
+	  {value,type,handler} = this.props
 
 	){
 		return(
 		
-			<div className={clsx({[styles.default]:true, [styles.operator]:type === 'operator', [styles.colSpan]:value == 0}, )} >
+			<div data-type={type}  onClick={handler} className={clsx({[styles.default]:true, [styles.operator]:type === 'operator', [styles.colSpan]:value == 0}, )} >
 				{value}
 			</div>
 			
