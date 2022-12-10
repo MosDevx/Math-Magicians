@@ -8,7 +8,7 @@ const styles = {
 	colSpan : 'col-span-2 w-full'
 }
 
-function Button({value,type,handler}){
+const Button=({value,type,handler})=>{
 		return(
 		
 			<div data-type={type}  onClick={handler} className={clsx({[styles.default]:true, [styles.operator]:type === 'operator', [styles.colSpan]:value == 0}, )} >

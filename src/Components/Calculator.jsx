@@ -2,7 +2,9 @@ import { useState } from 'react'
 import Button from './Button'
 import buttons from '../assets/calculatorKeys'
 import calculate from '../Logic/calculate'
-function Calculator(){
+
+
+const Calculator =()=>{
 
 
 	const [state, setState] = useState({
