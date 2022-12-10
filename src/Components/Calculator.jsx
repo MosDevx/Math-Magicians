@@ -31,8 +31,8 @@ function Calculator(){
 			 value = calculate(state.obj, pressedButton)
 		}catch(err){
 			console.log('err caught')
-			// console.log(err)
 		}
+		console.log('after err caught');
 		
 		//check if the button pressed is an operator and if there was a current total before ...ie user is operating on previous total
 		// if true we update the runningDisplay to have the old total plus the new operator
