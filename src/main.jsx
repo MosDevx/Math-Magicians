@@ -7,7 +7,6 @@ import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Calculator />
-    {/* <Button number={2} type={'operator'}/> */}
+   <App/>
   </React.StrictMode>
 )

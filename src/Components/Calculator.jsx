@@ -2,22 +2,6 @@ import React from 'react'
 import Button from './Button'
 import buttons from '../assets/calculatorKeys'
 
-
-
-// console.log(buttonKeys)
-// buttonKeys.map(buton=>(
-// 	{/* <Button
-// 		key={buton.value}
-// 		number={buton.number}
-// 		type={buton.type}
-// 	/> */}
-// 	console.log(buton);
-// ))
-
-// buttons.map((button)=>{
-// console.log(button)
-// })
-
 class Calculator extends React.Component {
 	constructor(props) {
 		super(props)
