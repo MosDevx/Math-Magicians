@@ -77,4 +77,4 @@ const buttons = [
   },
 ];
 
-export default buttons
+export default buttons;
