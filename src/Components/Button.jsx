@@ -1,4 +1,4 @@
-import React from 'react';
+
 import clsx from 'clsx'
 
 
@@ -8,17 +8,7 @@ const styles = {
 	colSpan : 'col-span-2 w-full'
 }
 
-class Button extends React.Component{
-
-	constructor(props){
-		super(props)
-	}
-
-	render(
-		//destructer props
-	  {value,type,handler} = this.props
-
-	){
+function Button({value,type,handler}){
 		return(
 		
 			<div data-type={type}  onClick={handler} className={clsx({[styles.default]:true, [styles.operator]:type === 'operator', [styles.colSpan]:value == 0}, )} >
@@ -26,7 +16,7 @@ class Button extends React.Component{
 			</div>
 			
 		)
-	}
+	
 }
 
 
