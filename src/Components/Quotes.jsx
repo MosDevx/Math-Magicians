@@ -4,7 +4,7 @@ export default function Quotes(){
 
 	return(
 
-		<div className="w-full h-screen bg-red-300 flex items-center justify-center">
+		<div className="w-full h-screen  flex  justify-center">
 
 				<blockquote className='text-4xl p-10'>
 

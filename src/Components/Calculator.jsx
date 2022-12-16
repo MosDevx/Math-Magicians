@@ -49,7 +49,9 @@ const Calculator =()=>{
 		
 	}
 			return(
-				
+
+		 <div className='flex w-screenj'>
+				<p className='text-2xl pl-10 pt-20'>Let's do some math!!</p>
 			<div className="container m-auto mt-24 h-[500px] w-[500px] bg-blue-200 grid grid-cols-4 grid-rows-6">
 				<div className="text-6xl  bg-slate-400 col-span-4 flex justify-end items-center">{state.showResult ? state.obj.total?.substring(0,15) ?? 0 : state.runningDisplay}</div>
 				
@@ -67,7 +69,7 @@ const Calculator =()=>{
 			 )}
 
 			</div>
-
+			</div>	
 		)
 
 	
