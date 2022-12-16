@@ -34,7 +34,6 @@ const Calculator =()=>{
 		}catch(err){
 			console.log('err caught')
 		}
-		console.log('after err caught');
 		
 		//check if the button pressed is an operator and if there was a current total before ...ie user is operating on previous total
 		// if true we update the runningDisplay to have the old total plus the new operator
