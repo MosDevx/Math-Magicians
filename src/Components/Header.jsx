@@ -9,10 +9,10 @@ export default function Header(){
 			
 			<span className='text-4xl'>Math Magicians</span>
 
-			<nav className='flex  text-3xl'>
-				<Link to={'home'}>Home</Link>
-				<Link to={'calculator'}>Calculator</Link>
-				<Link to={'quote'}>Quote</Link>
+			<nav className='flex  text-2xl w-2/6 px-6 justify-between'>
+				<Link to={'/home'}  className="border-r-2 border-black pr-6">Home</Link>
+				<Link to={'/calculator'} className="border-r-2 border-black pr-6">Calculator</Link>
+				<Link to={'/quotes'}>Quotes</Link>
 			</nav>
 		</div>
 	)
